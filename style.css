@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/iamges/bg.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200 px, 100 vw);
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 124px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.text {
+    font-family: "Kanit", sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.text> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.text> :nth-child(2) {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+}
+
+.sepration {
+    height: 6px;
+    background-color: gray;
+    opacity: 0.44;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    background-color: red;
+    color: white;
+    padding: 8px 25px 8px 14px;
+    border-radius: 7px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.main input {
+
+    color: white;
+    padding: 8px 6px 8px 14px;
+    color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    background: rgba(23, 23, 23, 0.2);
+    border-color: rgb(181, 181, 181);
+    font-weight: 900;
+}
+
+
+.btn-red-sm {
+    background-color: red;
+
+    padding: 7px 15px 8px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-english {
+    padding: 7px 15px 8px;
+    border-radius: 5px;
+    font-weight: 900;
+    border: none;
+    background: rgba(21, 22, 21, 160);
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.text-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.textsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+
+}
+
+.imgsec {
+    display: flex;
+    position: relative;
+    width: 30vw;
+}
+
+.imgsec img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.imgsec video {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 27vw;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.first> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.second {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+
+}
+
+.text3 {
+    color: white;
+}
+
+.imgthr img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+section.second>div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.second>div :nth-child(1) {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+section.second>div :nth-child(2) {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section {
+    height: 60vh;
+}
+
+section .minibox {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+    top: 1500px;
+    z-index: 10;
+    border-radius: 8px;
+    flex-direction: column;
+
+
+
+}
+
+.minibox {
+    border: 2px solid white;
+    height: 65px;
+    width: 230px;
+    position: relative;
+    background-color: rgb(4, 4, 4);
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+}
+
+.minibox img {
+    width: 42px;
+    height: 52px;
+    position: relative;
+    right: 0px;
+    bottom: 20px;
+}
+
+section.second .minibox>div :nth-child(1) {
+    font-size: 10px;
+    font-weight: bolder;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+section.second .minibox>div :nth-child(2) {
+    font-size: 8px;
+    font-weight: bolder;
+    position: relative;
+    top: 25px;
+    right: 50px;
+
+}
+
+.minibox .icon {
+    position: relative;
+    top: 27px;
+    left: 15px;
+
+
+}
+
+.fifth h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+.faqbox svg {
+    filter: invert(1);
+
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+
+}
+
+.fifth {
+    height: 115vh;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+:hover.faqbox {
+
+    background-color: #414141
+}
+footer
+{
+    max-width: 80vw;
+    margin: auto;
+    padding: 34px;
+    
+}
+
+.footer{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;  
+    margin-top: 30px;
+    
+}
+.footer-item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer a{
+    color: white;
+    font-size:  13px;
+}
+
+footer button{
+    padding:  4px 13px;
+    border-radius: 5px;
+    background-color: rgba(31, 30, 30, 0.751);
+    color: white;
+}
+
+footer .fottext
+{
+    color: white;
+}
